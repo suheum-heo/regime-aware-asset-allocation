@@ -1,0 +1,12 @@
+# Regime-Aware Volatility & Allocation System
+
+A medium-frequency systematic strategy that:
+- Detects market regimes using interpretable volatility/trend/drawdown features
+- Allocates among SPY, TLT, and BIL based on regime
+- Applies volatility targeting + realistic transaction costs
+- Avoids look-ahead bias via rebalance timing
+
+## How to run
+```bash
+python data/download.py
+python -c "print('Run notebook or build runner script next')"
